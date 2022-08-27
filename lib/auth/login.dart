@@ -12,7 +12,7 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         title: Text("Login"),
       ),
-      body: Center(),
+      body: Center(child: Text("Login"),),
     );
   }
 }
